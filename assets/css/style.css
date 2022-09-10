@@ -17,6 +17,7 @@ h1, h2{
 #logo{
     float:left;
     font-size: 280%;
+    margin-left: 30px;
 }
 
 #menu {
@@ -41,10 +42,10 @@ h1, h2{
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
-#hero-outer{
+#hero-outer {
     height:600px;
     width:100%;
-    overflow:hidden;
+    overflow: hidden;
     position:relative;
 }
 #cover-text, #cover-text h2{
@@ -90,4 +91,47 @@ h1, h2{
     position: absolute;
 
     
+}
+
+#club-ethos{
+    height: 600px;
+}
+#left{
+    padding-top: 30px;
+    width:33%;
+    float: left;
+    
+}
+#right{
+    padding-top: 30px;
+    width:33%;
+    float: right;
+  
+}
+#center{
+    padding-top: 30px;
+    width:33%;
+    
+    margin: 0% auto;
+}
+
+hr {
+    border-top:1px solid #3a3a3a;
+    width:100%;
+    margin:5px 0;
+}
+.left-heading{
+    width:60%;
+    float:right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom:50px;
+}
+
+.right-heading{
+    width:60%;
+    float:right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom:50px;
 }
