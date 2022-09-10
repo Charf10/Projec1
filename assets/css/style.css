@@ -135,3 +135,9 @@ hr {
     clear: both;
     margin-bottom:50px;
 }
+.right-heading h2{
+    text-align: right;
+}
+.right-heading p{
+    text-align: right;
+}
